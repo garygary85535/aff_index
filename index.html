@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GaryGary 的 AFF 故事書櫃，搜尋篇名、作者，依譯作、原創、付費與邀請制快速找到文章。">
+  <title>GaryGary · AFF 書櫃</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header><a class="brand" href="./">GaryGary<span>故事書櫃</span></a><a class="profile" href="https://www.asianfanfics.com/profile/u/ellen888" target="_blank" rel="noopener noreferrer">AFF 首頁</a></header>
+  <main>
+    <section class="intro"><p class="eyebrow">THE STORY INDEX</p><h1>下一篇，想讀什麼？</h1><p>原創、譯作與傳送門，從這裡開始找。</p></section>
+    <section class="controls" aria-label="搜尋與篩選">
+      <label class="search-label" for="search">搜尋書櫃</label><input type="search" id="search" placeholder="輸入篇名、作者或標籤…" autocomplete="off">
+      <div class="filters">
+        <label>作品性質<select id="type"><option value="">全部作品</option><option>原創</option><option>譯作</option></select></label>
+        <label>作者<select id="author"><option value="">全部作者</option></select></label>
+        <label>付費文章<select id="paid"><option value="">不限</option><option value="yes">付費／部分付費</option><option value="unknown">未見付費標示</option></select></label>
+        <label>邀請制<select id="invite"><option value="">不限</option><option value="是">需要邀請</option><option value="否">不需邀請</option></select></label>
+      </div>
+    </section>
+    <div class="result-bar"><p id="count" role="status" aria-live="polite">正在載入目錄…</p><button id="reset" type="button">清除篩選</button></div>
+    <section id="stories" class="stories" aria-label="文章目錄"></section>
+    <p id="empty" hidden>沒有符合的文章，試試其他關鍵字或清除篩選。</p>
+    <footer><p>邀請制文章需先取得作者授權；點擊連結不會自動取得閱讀權限。</p><p>「未見付費標示」不代表已確認免費。公開介紹頁與傳送門正文分別列出。</p><small id="updated"></small></footer>
+  </main>
+</body>
+</html>

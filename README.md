@@ -1,6 +1,12 @@
 # AFF 書櫃
 
-讀者文章目錄的資料來源，依 Google 試算表「aff書櫃」分頁定稿匯出。
+讀者文章目錄網站，依 Google 試算表「aff書櫃」分頁定稿匯出。
+
+網站：https://garygary85535.github.io/aff_index/
+
+支援篇名、作者與標籤搜尋，以及原創／譯作、作者、付費文章和邀請制篩選。草稿不顯示於讀者目錄。
+
+GitHub Pages 使用 `main` 分支的根目錄發布。更新 `data/catalog.json` 並推送後，網站會自動重新部署。
 
 - `data/catalog.json`：供網頁讀取，保留八個原始欄位。
 - `data/catalog.csv`：UTF-8 編碼，供試算表匯入與人工維護。
