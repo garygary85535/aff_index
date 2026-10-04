@@ -24,6 +24,16 @@ function render() {
   const fragment = document.createDocumentFragment();
   for (const story of filtered) {
     const card = element('article', 'story');
+    if (story['封面'] && /^assets\/covers\/\d+\.webp$/.test(story['封面'])) {
+      const cover = element('img', 'cover');
+      cover.src = story['封面'];
+      cover.alt = `${story['篇名']} 封面`;
+      cover.loading = 'lazy';
+      cover.decoding = 'async';
+      cover.width = 360; cover.height = 480;
+      cover.addEventListener('error', () => cover.remove(), { once: true });
+      card.append(cover);
+    }
     const badges = element('div', 'meta');
     badges.append(element('span', 'badge', story['譯作/原創']));
     if (isPaid(story)) badges.append(element('span', 'badge paid', story['付費文章'] === '部分付費' ? '部分付費' : '付費文章'));
