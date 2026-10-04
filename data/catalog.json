@@ -10,7 +10,8 @@
     "付費文章",
     "作者",
     "連結",
-    "邀請制"
+    "邀請制",
+    "顯示/不顯示"
   ],
   "stories": [
     {
@@ -22,6 +23,7 @@
       "作者": "GaryGary",
       "連結": "https://www.asianfanfics.com/story/view/1735273",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1735273.webp"
     },
     {
@@ -33,6 +35,7 @@
       "作者": "칠척",
       "連結": "https://www.asianfanfics.com/story/view/1730851",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1730851.webp"
     },
     {
@@ -44,6 +47,7 @@
       "作者": "GaryGary",
       "連結": "https://www.asianfanfics.com/story/view/1728772",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1728772.webp"
     },
     {
@@ -55,6 +59,7 @@
       "作者": "박프로",
       "連結": "https://www.asianfanfics.com/story/view/1715956",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1715956.webp"
     },
     {
@@ -66,6 +71,7 @@
       "作者": "꿀구마",
       "連結": "https://www.asianfanfics.com/story/view/1687646",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1687646.webp"
     },
     {
@@ -77,6 +83,7 @@
       "作者": "JSN",
       "連結": "https://www.asianfanfics.com/story/view/1677767",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1677767.webp"
     },
     {
@@ -88,6 +95,7 @@
       "作者": "쩡우",
       "連結": "https://www.asianfanfics.com/story/view/1674099",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1674099.webp"
     },
     {
@@ -99,6 +107,7 @@
       "作者": "쩡우 (@901x831)",
       "連結": "https://www.asianfanfics.com/story/view/1671036",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1671036.webp"
     },
     {
@@ -110,6 +119,7 @@
       "作者": "GaryGary",
       "連結": "https://www.asianfanfics.com/story/view/1664863",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1664863.webp"
     },
     {
@@ -121,6 +131,7 @@
       "作者": "ㅍ.,ㅍ",
       "連結": "https://www.asianfanfics.com/story/view/1660724",
       "邀請制": "否",
+      "顯示/不顯示": "",
       "封面": "assets/covers/1660724.webp"
     },
     {
@@ -132,6 +143,7 @@
       "作者": "이단",
       "連結": "https://www.asianfanfics.com/story/view/1655203",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1655203.webp"
     },
     {
@@ -143,6 +155,7 @@
       "作者": "달걀",
       "連結": "https://www.asianfanfics.com/story/view/1648515",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1648515.webp"
     },
     {
@@ -153,7 +166,8 @@
       "付費文章": "是",
       "作者": "고래",
       "連結": "https://www.asianfanfics.com/story/view/1648310",
-      "邀請制": "否"
+      "邀請制": "否",
+      "顯示/不顯示": ""
     },
     {
       "編號": 14,
@@ -164,6 +178,7 @@
       "作者": "칠척",
       "連結": "https://www.asianfanfics.com/story/view/1648300",
       "邀請制": "否",
+      "顯示/不顯示": "",
       "封面": "assets/covers/1648300.webp"
     },
     {
@@ -175,6 +190,7 @@
       "作者": "GaryGary",
       "連結": "https://www.asianfanfics.com/story/view/1647327",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1647327.webp"
     },
     {
@@ -186,6 +202,7 @@
       "作者": "파란모자（藍帽子）",
       "連結": "https://www.asianfanfics.com/story/view/1647302",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1647302.webp"
     },
     {
@@ -197,6 +214,7 @@
       "作者": "플레인（Plane）",
       "連結": "https://www.asianfanfics.com/story/view/1646459",
       "邀請制": "否",
+      "顯示/不顯示": "",
       "封面": "assets/covers/1646459.webp"
     },
     {
@@ -208,6 +226,7 @@
       "作者": "달걀",
       "連結": "https://www.asianfanfics.com/story/view/1645980",
       "邀請制": "否",
+      "顯示/不顯示": "",
       "封面": "assets/covers/1645980.webp"
     },
     {
@@ -219,6 +238,7 @@
       "作者": "임네닉（X: @JOEJOENJOE）",
       "連結": "https://www.asianfanfics.com/story/view/1639966",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1639966.webp"
     },
     {
@@ -230,6 +250,7 @@
       "作者": "GaryGary",
       "連結": "https://www.asianfanfics.com/story/view/1593244",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1593244.webp"
     },
     {
@@ -241,6 +262,7 @@
       "作者": "달걀",
       "連結": "https://www.asianfanfics.com/story/view/1637694",
       "邀請制": "否",
+      "顯示/不顯示": "",
       "封面": "assets/covers/1637694.webp"
     },
     {
@@ -252,6 +274,7 @@
       "作者": "GaryGary",
       "連結": "https://www.asianfanfics.com/story/view/1631182",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1631182.webp"
     },
     {
@@ -263,6 +286,7 @@
       "作者": "달걀",
       "連結": "https://www.asianfanfics.com/story/view/1628669",
       "邀請制": "否",
+      "顯示/不顯示": "",
       "封面": "assets/covers/1628669.webp"
     },
     {
@@ -274,6 +298,7 @@
       "作者": "톨",
       "連結": "https://www.asianfanfics.com/story/view/1625215",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1625215.webp"
     },
     {
@@ -285,6 +310,7 @@
       "作者": "박프로",
       "連結": "https://www.asianfanfics.com/story/view/1626220",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1626220.webp"
     },
     {
@@ -296,6 +322,7 @@
       "作者": "GaryGary",
       "連結": "https://www.asianfanfics.com/story/view/1622868",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1622868.webp"
     },
     {
@@ -307,6 +334,7 @@
       "作者": "GaryGary",
       "連結": "https://www.asianfanfics.com/story/view/1605133",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1605133.webp"
     },
     {
@@ -318,6 +346,7 @@
       "作者": "GaryGary",
       "連結": "https://www.asianfanfics.com/story/view/1619452",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1619452.webp"
     },
     {
@@ -329,6 +358,7 @@
       "作者": "달걀",
       "連結": "https://www.asianfanfics.com/story/view/1618046",
       "邀請制": "否",
+      "顯示/不顯示": "",
       "封面": "assets/covers/1618046.webp"
     },
     {
@@ -340,6 +370,7 @@
       "作者": "달걀",
       "連結": "https://www.asianfanfics.com/story/view/1607706",
       "邀請制": "否",
+      "顯示/不顯示": "",
       "封面": "assets/covers/1607706.webp"
     },
     {
@@ -351,6 +382,7 @@
       "作者": "달걀",
       "連結": "https://www.asianfanfics.com/story/view/1613283",
       "邀請制": "否",
+      "顯示/不顯示": "",
       "封面": "assets/covers/1613283.webp"
     },
     {
@@ -362,6 +394,7 @@
       "作者": "待確認",
       "連結": "https://www.asianfanfics.com/story/view/1608620",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1608620.webp"
     },
     {
@@ -373,6 +406,7 @@
       "作者": "달걀",
       "連結": "https://www.asianfanfics.com/story/view/1602041",
       "邀請制": "否",
+      "顯示/不顯示": "",
       "封面": "assets/covers/1602041.webp"
     },
     {
@@ -384,6 +418,7 @@
       "作者": "꿀구마",
       "連結": "https://www.asianfanfics.com/story/view/1601264",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1601264.webp"
     },
     {
@@ -395,6 +430,7 @@
       "作者": "GaryGary",
       "連結": "https://www.asianfanfics.com/story/view/1599940",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1599940.webp"
     },
     {
@@ -406,6 +442,7 @@
       "作者": "달걀",
       "連結": "https://www.asianfanfics.com/story/view/1598067",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1598067.webp"
     },
     {
@@ -417,6 +454,7 @@
       "作者": "GaryGary",
       "連結": "https://www.asianfanfics.com/story/view/1597780",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1597780.webp"
     },
     {
@@ -428,6 +466,7 @@
       "作者": "GaryGary",
       "連結": "https://www.asianfanfics.com/story/view/1597217",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1597217.webp"
     },
     {
@@ -439,6 +478,7 @@
       "作者": "GaryGary",
       "連結": "https://www.asianfanfics.com/story/view/1595217",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1595217.webp"
     },
     {
@@ -450,6 +490,7 @@
       "作者": "달걀",
       "連結": "https://www.asianfanfics.com/story/view/1587855",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1587855.webp"
     },
     {
@@ -461,6 +502,7 @@
       "作者": "박프로",
       "連結": "https://www.asianfanfics.com/story/view/1569199",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1569199.webp"
     },
     {
@@ -472,6 +514,7 @@
       "作者": "GaryGary",
       "連結": "https://www.asianfanfics.com/story/view/1581523",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1581523.webp"
     },
     {
@@ -483,6 +526,7 @@
       "作者": "GaryGary",
       "連結": "https://www.asianfanfics.com/story/view/1577478",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1577478.webp"
     },
     {
@@ -494,6 +538,7 @@
       "作者": "GaryGary",
       "連結": "https://www.asianfanfics.com/story/view/1574122",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1574122.webp"
     },
     {
@@ -504,7 +549,8 @@
       "付費文章": "未見付費標示",
       "作者": "GaryGary",
       "連結": "https://www.asianfanfics.com/story/view/1566734",
-      "邀請制": "否"
+      "邀請制": "否",
+      "顯示/不顯示": "V"
     },
     {
       "編號": 46,
@@ -515,6 +561,7 @@
       "作者": "GaryGary",
       "連結": "https://www.asianfanfics.com/story/view/1565348",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1565348.webp"
     },
     {
@@ -526,6 +573,7 @@
       "作者": "GaryGary",
       "連結": "https://www.asianfanfics.com/story/view/1562360",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1562360.webp"
     },
     {
@@ -537,6 +585,7 @@
       "作者": "GaryGary",
       "連結": "https://www.asianfanfics.com/story/view/1559792",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1559792.webp"
     },
     {
@@ -548,6 +597,7 @@
       "作者": "GaryGary",
       "連結": "https://www.asianfanfics.com/story/view/1554656",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1554656.webp"
     },
     {
@@ -559,6 +609,7 @@
       "作者": "박프로",
       "連結": "https://www.asianfanfics.com/story/view/1556585",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1556585.webp"
     },
     {
@@ -570,6 +621,7 @@
       "作者": "GaryGary",
       "連結": "https://www.asianfanfics.com/story/view/1553883",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1553883.webp"
     },
     {
@@ -581,6 +633,7 @@
       "作者": "GaryGary",
       "連結": "https://www.asianfanfics.com/story/view/1553887",
       "邀請制": "否",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1553887.webp"
     },
     {
@@ -592,6 +645,7 @@
       "作者": "달걀",
       "連結": "https://www.asianfanfics.com/story/view/1607994",
       "邀請制": "是",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1607994.webp"
     },
     {
@@ -603,6 +657,7 @@
       "作者": "쩡우",
       "連結": "https://www.asianfanfics.com/story/view/1672784",
       "邀請制": "是",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1672784.webp"
     },
     {
@@ -614,6 +669,7 @@
       "作者": "ㅍ.,ㅍ",
       "連結": "https://www.asianfanfics.com/story/view/1660729",
       "邀請制": "是",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1660729.webp"
     },
     {
@@ -625,6 +681,7 @@
       "作者": "고래",
       "連結": "https://www.asianfanfics.com/story/view/1648342",
       "邀請制": "是",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1648342.webp"
     },
     {
@@ -636,6 +693,7 @@
       "作者": "칠척",
       "連結": "https://www.asianfanfics.com/story/view/1648307",
       "邀請制": "是",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1648307.webp"
     },
     {
@@ -647,6 +705,7 @@
       "作者": "플레인（Plain）",
       "連結": "https://www.asianfanfics.com/story/view/1646460",
       "邀請制": "是",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1646460.webp"
     },
     {
@@ -658,6 +717,7 @@
       "作者": "달걀",
       "連結": "https://www.asianfanfics.com/story/view/1645983",
       "邀請制": "是",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1645983.webp"
     },
     {
@@ -669,6 +729,7 @@
       "作者": "달걀",
       "連結": "https://www.asianfanfics.com/story/view/1637695",
       "邀請制": "是",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1637695.webp"
     },
     {
@@ -680,6 +741,7 @@
       "作者": "달걀",
       "連結": "https://www.asianfanfics.com/story/view/1628666",
       "邀請制": "是",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1628666.webp"
     },
     {
@@ -691,6 +753,7 @@
       "作者": "달걀",
       "連結": "https://www.asianfanfics.com/story/view/1613286",
       "邀請制": "是",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1613286.webp"
     },
     {
@@ -702,6 +765,7 @@
       "作者": "달걀",
       "連結": "https://www.asianfanfics.com/story/view/1614558",
       "邀請制": "是",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1614558.webp"
     },
     {
@@ -713,6 +777,7 @@
       "作者": "달걀",
       "連結": "https://www.asianfanfics.com/story/view/1599866",
       "邀請制": "是",
+      "顯示/不顯示": "V",
       "封面": "assets/covers/1599866.webp"
     },
     {
@@ -723,7 +788,8 @@
       "付費文章": "未見付費標示",
       "作者": "GaryGary",
       "連結": "https://www.asianfanfics.com/story/view/1736800",
-      "邀請制": "是"
+      "邀請制": "是",
+      "顯示/不顯示": "V"
     }
   ]
 }

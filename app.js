@@ -53,7 +53,7 @@ fetch('./data/catalog.json').then(response => {
   if (!response.ok) throw new Error('目錄載入失敗');
   return response.json();
 }).then(catalog => {
-  stories = catalog.stories.filter(s => s['譯作/原創'] !== '不公開' && !String(s['標籤']).includes('草稿') && !s['連結'].endsWith('/1736800'));
+  stories = catalog.stories.filter(s => normalize(s['顯示/不顯示']).trim() === 'v' && s['譯作/原創'] !== '不公開' && !String(s['標籤']).includes('草稿') && !s['連結'].endsWith('/1736800'));
   const authors = [...new Set(stories.map(s => s['作者']))].sort((a,b) => a.localeCompare(b,'zh-Hant'));
   for (const author of authors) { const option = element('option', '', author); option.value = author; controls.author.append(option); }
   document.getElementById('updated').textContent = `目錄更新：${catalog.updatedAt}`;
