@@ -1,6 +1,6 @@
 {
   "title": "AFF 書櫃",
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-14",
   "source": "https://docs.google.com/spreadsheets/d/1Zz0-yklZqEG4LM_o6XIdGIndelTrvSBMDVNGaeJY1iw/edit?gid=1371910027#gid=1371910027",
   "columns": [
     "編號",
@@ -14,6 +14,18 @@
     "顯示/不顯示"
   ],
   "stories": [
+    {
+      "編號": 66,
+      "篇名": "好雨時節1920 [譯作]（傳送門內）",
+      "譯作/原創": "譯作",
+      "標籤": "annyeongz",
+      "付費文章": "是",
+      "作者": "noname",
+      "連結": "https://www.asianfanfics.com/story/view/1776426/story-1920",
+      "邀請制": "是",
+      "顯示/不顯示": "V",
+      "封面": "assets/covers/1776426.webp"
+    },
     {
       "編號": 1,
       "篇名": "Sofa potato",
