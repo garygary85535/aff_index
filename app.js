@@ -24,6 +24,8 @@ function render() {
   const fragment = document.createDocumentFragment();
   for (const story of filtered) {
     const card = element('article', 'story');
+    const artwork = element('div', 'artwork');
+    const details = element('div', 'story-details');
     if (story['封面'] && /^assets\/covers\/\d+\.webp$/.test(story['封面'])) {
       const cover = element('img', 'cover');
       cover.src = story['封面'];
@@ -31,19 +33,20 @@ function render() {
       cover.loading = 'lazy';
       cover.decoding = 'async';
       cover.width = 360; cover.height = 480;
-      cover.addEventListener('error', () => cover.remove(), { once: true });
-      card.append(cover);
+      cover.addEventListener('error', () => artwork.replaceChildren(element('span', 'no-cover', '暫無封面')), { once: true });
+      artwork.append(cover);
     }
+    if (!artwork.childNodes.length) artwork.append(element('span', 'no-cover', '暫無封面'));
     const badges = element('div', 'meta');
     badges.append(element('span', 'badge', story['譯作/原創']));
     if (isPaid(story)) badges.append(element('span', 'badge paid', story['付費文章'] === '部分付費' ? '部分付費' : '付費文章'));
     if (story['邀請制'] === '是') badges.append(element('span', 'badge invite', '邀請制'));
-    card.append(badges, element('h2', '', story['篇名']), element('p', 'author', story['作者']), element('p', 'tags', story['標籤']));
+    details.append(badges, element('h2', '', story['篇名']), element('p', 'author', story['作者']), element('p', 'tags', story['標籤']));
     const link = element('a', 'read', story['邀請制'] === '是' ? '前往傳送門' : '前往 AFF 閱讀');
     const url = new URL(story['連結']);
     if (url.protocol === 'https:' && /^(www\.)?asianfanfics\.com$/.test(url.hostname)) link.href = url.href;
     link.target = '_blank'; link.rel = 'noopener noreferrer';
-    card.append(link); fragment.append(card);
+    card.append(artwork, details, link); fragment.append(card);
   }
   document.getElementById('stories').replaceChildren(fragment);
 }
