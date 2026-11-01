@@ -24,3 +24,7 @@ assert.equal(JSON.parse(response.data).stories.length,state.catalog.stories.leng
  fs.rmdirSync(temp);
  console.log('AFF validation, paid/invitation rules, removed listing, preview routing, stale edits and publish confirmation passed.');
 })().catch(error=>{console.error(error);process.exitCode=1});
+assert.deepEqual(service.purchaseLinks([{name:' 上篇 ',url:'https://example.com/buy/1'},{name:'下篇',url:'https://example.com/buy/2'}]).map(l=>l.name),['上篇','下篇']);
+assert.throws(()=>service.purchaseLinks([{name:'',url:'https://example.com'}]));
+assert.throws(()=>service.purchaseLinks([{name:'test',url:'javascript:alert(1)'}]));
+assert.throws(()=>service.purchaseLinks([{name:'test',url:'https://user:secret@example.com'}]));

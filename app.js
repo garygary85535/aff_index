@@ -27,7 +27,7 @@ function render() {
     const card = element('article', 'story');
     const artwork = element('div', 'artwork');
     const details = element('div', 'story-details');
-    if (story['封面'] && /^assets\/covers\/\d+\.webp$/.test(story['封面'])) {
+    if (story['封面'] && /^assets\/covers\/\d+(?:-[a-f0-9]{12})?\.webp$/.test(story['封面'])) {
       const cover = element('img', 'cover');
       cover.src = story['封面'];
       cover.alt = `${story['篇名']} 封面`;
@@ -43,6 +43,17 @@ function render() {
     if (isPaid(story)) badges.append(element('span', 'badge paid', story['付費文章'] === '部分付費' ? '部分付費' : '付費文章'));
     if (isInvited(story)) badges.append(element('span', 'badge invite', '邀請制'));
     details.append(badges, element('h2', '', story['篇名']), element('p', 'author', story['作者']), element('p', 'tags', story['標籤']));
+    const purchases = element('div', 'purchases');
+    for (const purchase of Array.isArray(story['購買連結']) ? story['購買連結'] : []) {
+      try {
+        const url = new URL(purchase.url);
+        if (url.protocol !== 'https:' || url.username || url.password || typeof purchase.name !== 'string' || !purchase.name.trim()) continue;
+        const buy = element('a', 'purchase', `${purchase.name} ↗`);
+        buy.href = url.href; buy.target = '_blank'; buy.rel = 'noopener noreferrer';
+        purchases.append(buy);
+      } catch { /* Skip invalid optional purchase links. */ }
+    }
+    if (purchases.childNodes.length) { purchases.prepend(element('span', 'purchase-label', '購買原文：')); details.append(purchases); }
     const link = element('a', 'read', isInvited(story) || story['篇名'].includes('傳送門內') ? '前往傳送門' : '前往 AFF 閱讀');
     const url = new URL(story['連結']);
     if (url.protocol === 'https:' && /^(www\.)?asianfanfics\.com$/.test(url.hostname)) link.href = url.href;
