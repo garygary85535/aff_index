@@ -10,13 +10,14 @@ function element(tag, className, text) {
   return node;
 }
 function isPaid(story) { return ['是', '部分付費'].includes(story['付費文章']); }
+function isInvited(story) { return isPaid(story) || story['邀請制'] === '是'; }
 function render() {
   const query = normalize(controls.search.value.trim());
   const filtered = stories.filter(s =>
     (!query || normalize([s['篇名'], s['作者'], s['標籤']].join(' ')).includes(query)) &&
     (!controls.type.value || s['譯作/原創'] === controls.type.value) &&
     (!controls.author.value || s['作者'] === controls.author.value) &&
-    (!controls.invite.value || s['邀請制'] === controls.invite.value) &&
+    (!controls.invite.value || isInvited(s) === (controls.invite.value === '是')) &&
     (!controls.paid.value || (controls.paid.value === 'yes' ? isPaid(s) : !isPaid(s)))
   );
   document.getElementById('count').textContent = `${filtered.length} / ${stories.length} 筆文章`;
@@ -40,9 +41,9 @@ function render() {
     const badges = element('div', 'meta');
     badges.append(element('span', 'badge', story['譯作/原創']));
     if (isPaid(story)) badges.append(element('span', 'badge paid', story['付費文章'] === '部分付費' ? '部分付費' : '付費文章'));
-    if (story['邀請制'] === '是') badges.append(element('span', 'badge invite', '邀請制'));
+    if (isInvited(story)) badges.append(element('span', 'badge invite', '邀請制'));
     details.append(badges, element('h2', '', story['篇名']), element('p', 'author', story['作者']), element('p', 'tags', story['標籤']));
-    const link = element('a', 'read', story['邀請制'] === '是' ? '前往傳送門' : '前往 AFF 閱讀');
+    const link = element('a', 'read', isInvited(story) || story['篇名'].includes('傳送門內') ? '前往傳送門' : '前往 AFF 閱讀');
     const url = new URL(story['連結']);
     if (url.protocol === 'https:' && /^(www\.)?asianfanfics\.com$/.test(url.hostname)) link.href = url.href;
     link.target = '_blank'; link.rel = 'noopener noreferrer';

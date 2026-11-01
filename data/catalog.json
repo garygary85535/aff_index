@@ -1,6 +1,6 @@
 {
   "title": "AFF 書櫃",
-  "updatedAt": "2026-10-14",
+  "updatedAt": "2026-11-02",
   "source": "https://docs.google.com/spreadsheets/d/1Zz0-yklZqEG4LM_o6XIdGIndelTrvSBMDVNGaeJY1iw/edit?gid=1371910027#gid=1371910027",
   "columns": [
     "編號",
@@ -99,18 +99,6 @@
       "封面": "assets/covers/1677767.webp"
     },
     {
-      "編號": 7,
-      "篇名": "不會接吻的不良少女 x 沒接過吻的模範生 那之後的故事[譯作]（付費內容）",
-      "譯作/原創": "譯作",
-      "標籤": "annyeongz",
-      "付費文章": "是",
-      "作者": "쩡우",
-      "連結": "https://www.asianfanfics.com/story/view/1674099",
-      "邀請制": "否",
-      "顯示/不顯示": "V",
-      "封面": "assets/covers/1674099.webp"
-    },
-    {
       "編號": 8,
       "篇名": "不會接吻的不良少女 x 沒接過吻的模範生 [譯作]",
       "譯作/原創": "譯作",
@@ -118,7 +106,7 @@
       "付費文章": "是",
       "作者": "쩡우 (@901x831)",
       "連結": "https://www.asianfanfics.com/story/view/1671036",
-      "邀請制": "否",
+      "邀請制": "是",
       "顯示/不顯示": "V",
       "封面": "assets/covers/1671036.webp"
     },
@@ -142,7 +130,7 @@
       "付費文章": "是",
       "作者": "ㅍ.,ㅍ",
       "連結": "https://www.asianfanfics.com/story/view/1660724",
-      "邀請制": "否",
+      "邀請制": "是",
       "顯示/不顯示": "",
       "封面": "assets/covers/1660724.webp"
     },
@@ -178,7 +166,7 @@
       "付費文章": "是",
       "作者": "고래",
       "連結": "https://www.asianfanfics.com/story/view/1648310",
-      "邀請制": "否",
+      "邀請制": "是",
       "顯示/不顯示": ""
     },
     {
@@ -189,7 +177,7 @@
       "付費文章": "是",
       "作者": "칠척",
       "連結": "https://www.asianfanfics.com/story/view/1648300",
-      "邀請制": "否",
+      "邀請制": "是",
       "顯示/不顯示": "",
       "封面": "assets/covers/1648300.webp"
     },
@@ -225,7 +213,7 @@
       "付費文章": "是",
       "作者": "플레인（Plane）",
       "連結": "https://www.asianfanfics.com/story/view/1646459",
-      "邀請制": "否",
+      "邀請制": "是",
       "顯示/不顯示": "",
       "封面": "assets/covers/1646459.webp"
     },
@@ -237,7 +225,7 @@
       "付費文章": "是",
       "作者": "달걀",
       "連結": "https://www.asianfanfics.com/story/view/1645980",
-      "邀請制": "否",
+      "邀請制": "是",
       "顯示/不顯示": "",
       "封面": "assets/covers/1645980.webp"
     },
@@ -273,7 +261,7 @@
       "付費文章": "是",
       "作者": "달걀",
       "連結": "https://www.asianfanfics.com/story/view/1637694",
-      "邀請制": "否",
+      "邀請制": "是",
       "顯示/不顯示": "",
       "封面": "assets/covers/1637694.webp"
     },
@@ -297,7 +285,7 @@
       "付費文章": "是",
       "作者": "달걀",
       "連結": "https://www.asianfanfics.com/story/view/1628669",
-      "邀請制": "否",
+      "邀請制": "是",
       "顯示/不顯示": "",
       "封面": "assets/covers/1628669.webp"
     },
@@ -369,7 +357,7 @@
       "付費文章": "是",
       "作者": "달걀",
       "連結": "https://www.asianfanfics.com/story/view/1618046",
-      "邀請制": "否",
+      "邀請制": "是",
       "顯示/不顯示": "",
       "封面": "assets/covers/1618046.webp"
     },
@@ -381,7 +369,7 @@
       "付費文章": "是",
       "作者": "달걀",
       "連結": "https://www.asianfanfics.com/story/view/1607706",
-      "邀請制": "否",
+      "邀請制": "是",
       "顯示/不顯示": "",
       "封面": "assets/covers/1607706.webp"
     },
@@ -393,7 +381,7 @@
       "付費文章": "是",
       "作者": "달걀",
       "連結": "https://www.asianfanfics.com/story/view/1613283",
-      "邀請制": "否",
+      "邀請制": "是",
       "顯示/不顯示": "",
       "封面": "assets/covers/1613283.webp"
     },
@@ -417,7 +405,7 @@
       "付費文章": "是",
       "作者": "달걀",
       "連結": "https://www.asianfanfics.com/story/view/1602041",
-      "邀請制": "否",
+      "邀請制": "是",
       "顯示/不顯示": "",
       "封面": "assets/covers/1602041.webp"
     },

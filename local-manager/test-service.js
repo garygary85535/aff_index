@@ -1,0 +1,26 @@
+'use strict';
+const assert=require('node:assert/strict');
+const service=require('./service');
+const fs=require('node:fs'),os=require('node:os'),path=require('node:path');
+const state=service.read();
+assert(!state.catalog.stories.some(s=>service.storyId(s)==='1674099'));
+assert(state.catalog.stories.filter(s=>['是','部分付費'].includes(s['付費文章'])).every(s=>s['邀請制']==='是'));
+const story={'編號':1,'篇名':'測試','譯作/原創':'譯作','標籤':'','付費文章':'是','作者':'作者','連結':'https://www.asianfanfics.com/story/view/123/test','邀請制':'否','顯示/不顯示':'V','封面':''};
+assert.equal(service.validate(story),'123');assert.equal(story['邀請制'],'是');
+assert.throws(()=>service.validate({...story,'連結':'https://example.com/story/view/123'}));
+assert.throws(()=>service.validate({...story,'封面':'../../private.webp'}));
+assert.throws(()=>service.validate({...story,'顯示/不顯示':'X'}));
+const response={setHeader(){},end(data){this.data=data}};
+assert.equal(service.serve('/aff-preview/../../server.js',response,'test'),false);
+assert.equal(service.serve('/aff',response,'test-token'),true);
+assert(response.data.includes("const token='test-token'"));
+assert.equal(service.serve('/aff-preview/data/catalog.json',response,'test'),true);
+assert.equal(JSON.parse(response.data).stories.length,state.catalog.stories.length);
+(async()=>{
+ const temp=fs.mkdtempSync(path.join(os.tmpdir(),'aff-manager-test-'));
+ await assert.rejects(service.handle('POST','/api/aff/save',{revision:'old',story},temp),/重新載入/);
+ await assert.rejects(service.handle('POST','/api/aff/publish',{revision:state.revision,confirm:'no'},temp),/確認發布/);
+ assert.equal(service.read().revision,state.revision);
+ fs.rmdirSync(temp);
+ console.log('AFF validation, paid/invitation rules, removed listing, preview routing, stale edits and publish confirmation passed.');
+})().catch(error=>{console.error(error);process.exitCode=1});
